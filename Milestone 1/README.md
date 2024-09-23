@@ -47,7 +47,7 @@ src/
 
  Navigate into the project directory:
 
-cd "Milestone 1"
+ cd "Milestone 1"
 
  Install the required dependencies:
 
