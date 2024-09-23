@@ -6,11 +6,11 @@ This is a simple Task Management application built with React and bundled using 
 
 * Features
 
-- Add new tasks with a title and description.
+ Add new tasks with a title and description.
 
-- Display a list of tasks.
+ Display a list of tasks.
 
-- Delete tasks from the list.
+ Delete tasks from the list.
 
 
 * Project Structure
@@ -35,21 +35,21 @@ src/
 
 * Make sure you have the following installed:
 
-- Node.js 
+ Node.js 
 
-- npm or yarn 
+ npm or yarn 
 
-- Vite
+ Vite
 
 
 
 * Installation
 
-- Navigate into the project directory:
+ Navigate into the project directory:
 
 cd "Milestone 1"
 
-- Install the required dependencies:
+ Install the required dependencies:
 
 npm install
 
@@ -87,9 +87,9 @@ Click the "Delete" button next to the task you want to remove from the list.
 
 * File Breakdown
 
-- App.jsx: The main file that handles state for the tasks and renders the TaskForm and TaskList components.
+ App.jsx: The main file that handles state for the tasks and renders the TaskForm and TaskList components.
 
-- TaskForm.jsx: This component is responsible for rendering the form where users can add new tasks.
+ TaskForm.jsx: This component is responsible for rendering the form where users can add new tasks.
 
-- TaskList.jsx: This component displays the list of tasks and allows users to delete them.
+ TaskList.jsx: This component displays the list of tasks and allows users to delete them.
 
