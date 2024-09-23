@@ -1,0 +1,135 @@
+/* It is a General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #81d4fa, #ffab91);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #ffffff; /* Clean white container */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 600px; /* Responsive width */
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  color: #6a1b9a; /* Deep purple for headings */
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+button {
+  background-color: #ff7043; /* It is a orange color */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  width: 100%; /* Full-width buttons */
+}
+
+button:hover {
+  background-color: #ff5722; /* Darker color on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Styles */
+form {
+  margin-bottom: 20px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #6a1b9a; /* Deep purple for labels */
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-color: #6a1b9a; /* Highlight border on focus */
+}
+
+/* Error Styles */
+p[style="color: red"] {
+  font-size: 12px;
+  color: red;
+  text-align: center;
+}
+
+/* Task List Styles */
+.task {
+  background-color: #e1bee7; /* Light purple for tasks */
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.task:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.task h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #4a148c; /* Darker purple for task title */
+}
+
+.task p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* Task delete button */
+.task button {
+  background-color: #f44336; /* Red for delete */
+  margin-top: 10px;
+}
+
+.task button:hover {
+  background-color: #c62828; /* Darker red on hover */
+  transform: translateY(-2px);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 24px; /* Smaller heading on mobile */
+  }
+}
