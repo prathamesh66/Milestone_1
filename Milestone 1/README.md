@@ -5,7 +5,9 @@ This is a simple Task Management application built with React and bundled using 
 *Features
 
 -Add new tasks with a title and description.
+
 -Display a list of tasks.
+
 -Delete tasks from the list.
 
 *Project Structure
@@ -13,11 +15,16 @@ This is a simple Task Management application built with React and bundled using 
 src/
 │
 ├── Components/
+
 │   ├── TaskForm.jsx     # Component for adding tasks
 │   └── TaskList.jsx     # Component for listing and deleting tasks
+
 ├── App.jsx              # Main component managing the state
+
 ├── App.css              # Optional CSS file for styling
+
 ├── main.jsx             # Entry point of the app
+
 └── ...
 
 *Make sure you have the following installed:
@@ -61,6 +68,8 @@ Click the "Delete" button next to the task you want to remove from the list.
 *File Breakdown
 
 *App.jsx: The main file that handles state for the tasks and renders the TaskForm and TaskList components.
+
 *TaskForm.jsx: This component is responsible for rendering the form where users can add new tasks.
+
 *TaskList.jsx: This component displays the list of tasks and allows users to delete them.
 
