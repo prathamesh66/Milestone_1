@@ -1,6 +1,8 @@
 # Milestone_1
 
+
 This is a simple Task Management application built with React and bundled using Vite. The application allows users to add, view, and delete tasks with a title and description.
+
 
 *Features
 
@@ -9,6 +11,7 @@ This is a simple Task Management application built with React and bundled using 
 -Display a list of tasks.
 
 -Delete tasks from the list.
+
 
 *Project Structure
 
@@ -29,6 +32,7 @@ src/
 
 └── ...
 
+
 *Make sure you have the following installed:
 
 -Node.js 
@@ -36,6 +40,7 @@ src/
 -npm or yarn 
 
 -Vite
+
 
 
 *Installation
@@ -49,6 +54,7 @@ cd "Milestone 1"
 npm install
 
 
+
 *Running the Application
 
 Once the dependencies are installed, you can run the app in development mode using Vite.
@@ -58,6 +64,8 @@ Using npm:
 npm run dev
 
 The application will run on http://localhost:5173.
+
+
 
 *How to Use
 
@@ -74,6 +82,8 @@ After adding tasks, they will appear in the task list below the form.
 Delete a Task:
 
 Click the "Delete" button next to the task you want to remove from the list.
+
+
 
 *File Breakdown
 
