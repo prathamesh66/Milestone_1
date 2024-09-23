@@ -14,9 +14,11 @@ This is a simple Task Management application built with React and bundled using 
 
 src/
 │
+
 ├── Components/
 
 │   ├── TaskForm.jsx     # Component for adding tasks
+
 │   └── TaskList.jsx     # Component for listing and deleting tasks
 
 ├── App.jsx              # Main component managing the state
@@ -30,7 +32,9 @@ src/
 *Make sure you have the following installed:
 
 -Node.js 
+
 -npm or yarn 
+
 -Vite
 
 
@@ -46,9 +50,11 @@ npm install
 
 
 *Running the Application
+
 Once the dependencies are installed, you can run the app in development mode using Vite.
 
 Using npm:
+
 npm run dev
 
 The application will run on http://localhost:5173.
@@ -56,11 +62,15 @@ The application will run on http://localhost:5173.
 *How to Use
 
 -Add a Task:
+
 Fill out the task title and description in the provided fields.
+
 Click on "Add Task" to add the task to the list.
 
 -View Tasks:
+
 After adding tasks, they will appear in the task list below the form.
+
 Delete a Task:
 
 Click the "Delete" button next to the task you want to remove from the list.
