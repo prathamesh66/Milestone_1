@@ -1,7 +1,7 @@
 # Milestone_1
 
 
-This is a simple Task Management application built with React and bundled using Vite. The application allows users to add, view, and delete tasks with a title and description.
+This is a simple Task Management application built with React and bundled using Vite. The application allows users to add, view, and delete tasks with a title and description..
 
 
 * Features
